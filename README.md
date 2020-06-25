@@ -15,3 +15,13 @@ brew update 一次更新所有的包是非常方便的，但是有时候我们�
 
 brew pin $FORMULA      # 锁定某个包
 brew unpin $FORMULA    # 取消锁定
+
+### zsh
+1. 完成 zsh 和 zsh completions 的安装: 
+> brew install zsh zsh-completions
+
+2. oh-my-zsh 让 zsh 获得拓展功能和主题: 
+    curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+3.  配置zshr文件
+    cp zshrc ~/.zshrc
+
