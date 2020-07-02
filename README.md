@@ -2,6 +2,7 @@
 
 ### Tmux 
 version: 2.6
+如果使用的是zsh, 则配置中选择指定zsh，否则会有异常
 
 ### vim
 #### 下载vundle
